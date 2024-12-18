@@ -16,7 +16,7 @@ public class SudokuSolver {
         System.out.println("Sudoku Puzzle :");
         printBoard(board);
         if (solveBoard(board)) {
-            System.out.println("\nSolved Sudoku:");
+            System.out.println("\nSolved Sudoku :");
             printBoard(board);
         } else {
             System.out.println("\nUnsolvable Sudoku.");
